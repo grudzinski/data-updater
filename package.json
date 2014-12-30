@@ -1,0 +1,15 @@
+{
+  "name": "data-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Roman Grudzinski",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "lodash": "^2.4.1"
+  }
+}
