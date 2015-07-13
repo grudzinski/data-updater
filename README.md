@@ -23,6 +23,14 @@ updater.on('old', function() {
 
 updater.on('update', function(data) {
 	// Runs when data file was updated sice last attempt
-})
+});
+
+update.on('first-update', function(err) {
+	// Runs after first update attempt, can be unsuccessful
+});
+
+update.on('first-successful-update', function() {
+	// Runs after first successful update attempt
+});
 
 ```
